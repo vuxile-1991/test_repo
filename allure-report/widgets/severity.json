@@ -1,0 +1,91 @@
+[ {
+  "uid" : "9eda68f859229150",
+  "name" : "Should login successfully with valid username",
+  "time" : {
+    "start" : 1704571444393,
+    "stop" : 1704571445839,
+    "duration" : 1446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bc2529317271627",
+  "name" : "Should display homepage texts in red color with valid username",
+  "time" : {
+    "start" : 1704571435672,
+    "stop" : 1704571436042,
+    "duration" : 370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "519776331e859062",
+  "name" : "Should verify images source format with valid username",
+  "time" : {
+    "start" : 1704571436052,
+    "stop" : 1704571436322,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b92d16e5eca0713f",
+  "name" : "Should verify bot image format",
+  "time" : {
+    "start" : 1704571444228,
+    "stop" : 1704571444386,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b84be73387b98e62",
+  "name" : "Should display an error with locked out username",
+  "time" : {
+    "start" : 1704571445859,
+    "stop" : 1704571447035,
+    "duration" : 1176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "724e54e73b361759",
+  "name" : "Should verify images source format with problem username",
+  "time" : {
+    "start" : 1704571447044,
+    "stop" : 1704571448424,
+    "duration" : 1380
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d890f9964a01e075",
+  "name" : "Should verify password input placeholder",
+  "time" : {
+    "start" : 1704571444048,
+    "stop" : 1704571444222,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "959827fe109f09c1",
+  "name" : "Should verify product names",
+  "time" : {
+    "start" : 1704571433128,
+    "stop" : 1704571435633,
+    "duration" : 2505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3831e6a6291e46f",
+  "name" : "Should verify username input placeholder",
+  "time" : {
+    "start" : 1704571443717,
+    "stop" : 1704571444040,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
