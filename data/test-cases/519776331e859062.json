@@ -1,0 +1,306 @@
+{
+  "uid" : "519776331e859062",
+  "name" : "Should verify images source format with valid username",
+  "fullName" : "Should verify images source format with valid username",
+  "historyId" : "7ffbd8fa9575afc07ea9e6ac70a0c258",
+  "time" : {
+    "start" : 1704571436052,
+    "stop" : 1704571436322,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Initialize",
+      "time" : {
+        "start" : 1704571436052,
+        "stop" : 1704571436291,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "completeLogin (\"standard_user\"; \"secret_sauce\")",
+        "time" : {
+          "start" : 1704571436104,
+          "stop" : 1704571436170,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "session [\"standard_user\",\"secret_sauce\"]",
+          "time" : {
+            "start" : 1704571436104,
+            "stop" : 1704571436170,
+            "duration" : 66
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "sessions_manager",
+            "time" : {
+              "start" : 1704571436155,
+              "stop" : 1704571436155,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "session",
+            "time" : {
+              "start" : 1704571436156,
+              "stop" : 1704571436156,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Clear page",
+            "time" : {
+              "start" : 1704571436156,
+              "stop" : 1704571436156,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Clear page",
+            "time" : {
+              "start" : 1704571436170,
+              "stop" : 1704571436170,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "visit inventory.html",
+        "time" : {
+          "start" : 1704571436170,
+          "stop" : 1704571436290,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verifySrcFormatOfElementOrElements (\"img.inventory_item_img\")",
+      "time" : {
+        "start" : 1704571436292,
+        "stop" : 1704571436322,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get img.inventory_item_img",
+        "time" : {
+          "start" : 1704571436293,
+          "stop" : 1704571436310,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **./img/bike-light-1200x1500.jpg** to match /\\.(jpg|png)$/",
+        "time" : {
+          "start" : 1704571436321,
+          "stop" : 1704571436321,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "./img/bike-light-1200x1500.jpg"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **./img/bolt-shirt-1200x1500.jpg** to match /\\.(jpg|png)$/",
+        "time" : {
+          "start" : 1704571436322,
+          "stop" : 1704571436322,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "./img/bolt-shirt-1200x1500.jpg"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **./img/sauce-pullover-1200x1500.jpg** to match /\\.(jpg|png)$/",
+        "time" : {
+          "start" : 1704571436322,
+          "stop" : 1704571436322,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "./img/sauce-pullover-1200x1500.jpg"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **./img/red-onesie-1200x1500.jpg** to match /\\.(jpg|png)$/",
+        "time" : {
+          "start" : 1704571436322,
+          "stop" : 1704571436322,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "./img/red-onesie-1200x1500.jpg"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **./img/red-tatt-1200x1500.jpg** to match /\\.(jpg|png)$/",
+        "time" : {
+          "start" : 1704571436322,
+          "stop" : 1704571436322,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "./img/red-tatt-1200x1500.jpg"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **./img/sauce-backpack-1200x1500.jpg** to match /\\.(jpg|png)$/",
+        "time" : {
+          "start" : 1704571436322,
+          "stop" : 1704571436322,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "./img/sauce-backpack-1200x1500.jpg"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "cypress.e2e.test.homepage_test.cy.js"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage with valid login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "519776331e859062.json",
+  "parameterValues" : [ ]
+}
